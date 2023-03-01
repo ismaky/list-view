@@ -1,0 +1,110 @@
+[
+  {
+    "nameAlbum": "EVERYTHING IS LOVE",
+    "nameImageAlbum": "everythingIsLove",
+    "nameArtist": "The Carters",
+    "albumYear": "2018"
+  },
+  {
+      "nameAlbum": "BACK TO BLACK",
+      "nameImageAlbum": "backToBlack",
+      "nameArtist": "Amy Whinehouse",
+      "albumYear": "2006"
+  },
+  {
+      "nameAlbum": "ABBEY ROAD",
+      "nameImageAlbum": "abbeyRoad",
+      "nameArtist": "The Beatles",
+      "albumYear": "1969"
+  },
+  {
+      "nameAlbum": "DARK SIDE OF THE MOON",
+      "nameImageAlbum": "darkSideOfTheMoon",
+      "nameArtist": "Pink Floyd",
+      "albumYear": "1973"
+  },
+  {
+      "nameAlbum": "UNTITLED",
+      "nameImageAlbum": "untitled",
+      "nameArtist": "Simple Plan",
+      "albumYear": "2004"
+  },
+  {
+      "nameAlbum": "LOUD",
+      "nameImageAlbum": "loud",
+      "nameArtist": "Rihanna",
+      "albumYear": "2010"
+  },
+  {
+      "nameAlbum": "UNKNOWN PLEASURES",
+      "nameImageAlbum": "unknownPleasures",
+      "nameArtist": "Joy Division",
+      "albumYear": "1979"
+  },
+  {
+      "nameAlbum": "WAR",
+      "nameImageAlbum": "war",
+      "nameArtist": "U2",
+      "albumYear": "1983"
+  },
+  {
+      "nameAlbum": "NEVERMIND",
+      "nameImageAlbum": "nevermind",
+      "nameArtist": "Nirvana",
+      "albumYear": "1991"
+  },
+  {
+      "nameAlbum": "FALLEN",
+      "nameImageAlbum": "fallen",
+      "nameArtist": "Evanescence",
+      "albumYear": "2003"
+  },
+  {
+      "nameAlbum": "AMERICAN IDIOT",
+      "nameImageAlbum": "americanIdiot",
+      "nameArtist": "Green Day",
+      "albumYear": "2004"
+  },
+  {
+      "nameAlbum": "DEMON DAYS",
+      "nameImageAlbum": "demonDays",
+      "nameArtist": "Gorillaz",
+      "albumYear": "2005"
+  },
+  {
+      "nameAlbum": "LEMONADE",
+      "nameImageAlbum": "lemonade",
+      "nameArtist": "Beyoncé",
+      "albumYear": "2016"
+  },
+  {
+      "nameAlbum": "BORN TO DIE",
+      "nameImageAlbum": "bornToDie",
+      "nameArtist": "Lana del Rey",
+      "albumYear": "2012"
+  },
+  {
+      "nameAlbum": "1989",
+      "nameImageAlbum": "1989",
+      "nameArtist": "Taylor Swift",
+      "albumYear": "2014"
+  },
+  {
+      "nameAlbum": "THINGS FALL APART",
+      "nameImageAlbum": "thingsFallApart",
+      "nameArtist": "The Roots",
+      "albumYear": "1999"
+  },
+  {
+      "nameAlbum": "TRUE BLUE",
+      "nameImageAlbum": "trueBlue",
+      "nameArtist": "Madonna",
+      "albumYear": "1986"
+  },
+  {
+      "nameAlbum": "BITCHES BREW",
+      "nameImageAlbum": "bitchesBrew",
+      "nameArtist": "Miles Davis",
+      "albumYear": "1969"
+  }
+]
