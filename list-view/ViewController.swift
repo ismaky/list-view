@@ -29,8 +29,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let cv: UICollectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
         cv.dataSource = self
         cv.delegate = self
-        cv.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "MyCell")
-        cv.backgroundColor = UIColor.white
+        cv.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        cv.backgroundColor = UIColor.black
         cv.translatesAutoresizingMaskIntoConstraints = false
         return cv
     }()
@@ -38,7 +38,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Get all album from jason
+        //Obter todos os álbuns de jason
         albums = Album.allAlbums
         
         view.addSubview(myCollectionView)
@@ -54,18 +54,22 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return 33
         return albums.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath)
+     
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         
-        let image  = UIImage(named: albums[indexPath.item].nameImageAlbum)
+        cell.contentView.backgroundColor = .systemBlue
+
+        let image = UIImage(named: albums[indexPath.item].nameImageAlbum)
         let imageView = UIImageView(image: image)
         imageView.frame.size = cell.contentView.bounds.size
-        
+
         cell.contentView.addSubview(imageView)
-        
+
         return cell
     }
     
@@ -76,12 +80,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             labelAlbums.topAnchor.constraint(equalTo: myCollectionView.topAnchor,constant: 30), labelAlbums.centerXAnchor.constraint(equalTo: self.view.centerXAnchor, constant: 0)
         ])
         
-        // constraits collectionvew
+        //restringe collectionView
         NSLayoutConstraint.activate([
             myCollectionView.widthAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.widthAnchor),
             myCollectionView.heightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.heightAnchor),
             myCollectionView.centerXAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerXAnchor),
-            myCollectionView.centerYAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerYAnchor)])
+            myCollectionView.centerYAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerYAnchor)
+        ])
     }
 }
 
