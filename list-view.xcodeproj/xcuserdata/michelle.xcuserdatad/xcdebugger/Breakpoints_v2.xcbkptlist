@@ -14,8 +14,8 @@
             filePath = "list-view/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,7 +39,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2906AE6B-6A36-41BC-8D73-7B56A2C2A8FD"
+            uuid = "CA466EFB-2EE8-4A5E-8D53-E435F0412E37"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -50,101 +50,6 @@
             endingLineNumber = "57"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CA466EFB-2EE8-4A5E-8D53-E435F0412E37"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "list-view/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "collectionView(_:numberOfItemsInSection:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1490D034-ADB9-409F-B0D5-E24F3205B47D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "list-view/Album.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "allAlbums"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "1490D034-ADB9-409F-B0D5-E24F3205B47D - a70ac5657613ec70"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "one-time initialization function for allAlbums"
-                  moduleName = "list-view"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michelle/Desktop/list-view/list-view/Album.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  uuid = "1490D034-ADB9-409F-B0D5-E24F3205B47D - 2f84e1211cb060de"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; Swift.Array&lt;list_view.Album&gt; in variable initialization expression of static list_view.Album.allAlbums : Swift.Array&lt;list_view.Album&gt;"
-                  moduleName = "list-view"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michelle/Desktop/list-view/list-view/Album.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "156">
-               </Location>
-               <Location
-                  uuid = "1490D034-ADB9-409F-B0D5-E24F3205B47D - 55fc4f2fba91f7dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "list_view.Album.allAlbums.unsafeMutableAddressor : Swift.Array&lt;list_view.Album&gt;"
-                  moduleName = "list-view"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/michelle/Desktop/list-view/list-view/Album.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E36C66E9-B5DE-4562-8E8B-FC5B7E9DC665"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "list-view/Album.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "allAlbums"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
