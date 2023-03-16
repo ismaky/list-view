@@ -72,6 +72,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("cliquei", albums[indexPath.item].nameAlbum)
+       
+        let informationViewController = InformationViewController()
+            informationViewController.album = albums[indexPath.item]
+        
+        self.navigationController?.pushViewController(informationViewController, animated: true)
+    }
+    
     func setUpHomeConstraints() {
         
         //constraits label album

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4A978929C2CCF500C79774 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A978829C2CCF500C79774 /* InformationViewController.swift */; };
 		3222AED729B63919005FEEF2 /* Albums.json in Resources */ = {isa = PBXBuildFile; fileRef = 322E31A929B439C20073CE6C /* Albums.json */; };
 		3222AED829B6391F005FEEF2 /* Albums.json in Resources */ = {isa = PBXBuildFile; fileRef = 322E31A929B439C20073CE6C /* Albums.json */; };
 		3222AED929B6391F005FEEF2 /* Albums.json in Resources */ = {isa = PBXBuildFile; fileRef = 322E31A929B439C20073CE6C /* Albums.json */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C4A978829C2CCF500C79774 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		32292EC129AF1F0700BD087B /* list-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "list-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32292EC629AF1F0700BD087B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		32292ECD29AF1F0900BD087B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				322E31A929B439C20073CE6C /* Albums.json */,
 				322E31A729B439BF0073CE6C /* AppDelegate.swift */,
 				322E31A329B439B70073CE6C /* ViewController.swift */,
+				2C4A978829C2CCF500C79774 /* InformationViewController.swift */,
 				322E31A529B439BB0073CE6C /* CollectionViewController.swift */,
 				32292EC629AF1F0700BD087B /* SceneDelegate.swift */,
 				32292ECD29AF1F0900BD087B /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				322E31A429B439B70073CE6C /* ViewController.swift in Sources */,
 				32292EC729AF1F0700BD087B /* SceneDelegate.swift in Sources */,
 				322E31AB29B439C50073CE6C /* Album.swift in Sources */,
+				2C4A978929C2CCF500C79774 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -534,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
