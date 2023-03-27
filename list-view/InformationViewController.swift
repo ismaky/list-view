@@ -19,6 +19,7 @@ class InformationViewController: UIViewController {
         //alinhando o texto no meio
         lnal.textAlignment = .center
         lnal.text = album.nameAlbum
+        lnal.textColor = .white
         lnal.translatesAutoresizingMaskIntoConstraints = false
         return lnal
     }()
@@ -27,6 +28,7 @@ class InformationViewController: UIViewController {
         let lnar = UILabel()
         lnar.font = UIFont(name: "GillSans", size: 18)
         lnar.text = album.nameArtist
+        lnar.textColor = .white
         lnar.translatesAutoresizingMaskIntoConstraints = false
         return lnar
     }()
@@ -35,6 +37,7 @@ class InformationViewController: UIViewController {
         let lay = UILabel()
         lay.font = UIFont(name: "GillSans", size: 18)
         lay.text = album.albumYear
+        lay.textColor = .white
         lay.translatesAutoresizingMaskIntoConstraints = false
         return lay
     }()

@@ -17,6 +17,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let label = UILabel()
         label.font = UIFont(name: "GillSans", size: 36)
         label.text = "ALBUMS"
+        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
